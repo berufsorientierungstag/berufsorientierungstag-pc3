@@ -1,8 +1,32 @@
-vor
+wiederholen
 dreh_rechts
-vorne_frei?
-if true 
+if !vorne_frei?
+	dreh_links
 	vor
 else
-	dreh_links
+	vor
+end
+dreh_rechts
+if !vorne_frei?
+	vor
+else
+	vor
+end
+dreh_rechts
+if !vorne_frei?
+	vor
+else
+	vor
+end
+dreh_rechts
+if !vorne_frei?
+	vor
+else
+	vor
+end
+dreh_rechts
+if !vorne_frei?
+	vor
+else
+	vor
 end
